@@ -9,7 +9,7 @@ class Config:
     DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://Nischaybot:Nischaybot@cluster0.thf9kzz.mongodb.net/?retryWrites=true&w=majority")  
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluste0")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Data')
-    SESSION = os.environ.get("SESSION", "BQF5M1cAStKsn0Edn3gnmRVdaiKalRyaZ6taJkfpK9ctkOcKs50MYhPGeQj6Ge7FzO89KquRKQ-IhpnMWH3VOsNFLLRbgsVIw8UTP4EGMXjS2AUcqo7B-bm1fYbNyztFKXacIC9jIu6i4A_hPhh7XoshQwJPtKeN90TEyNP5ZQQtbHiKMxQbPyFEUqXR3q7m071OguoWykIHujBLYIJ0s8O5VjNvcPA29dG6W6LdIuNvYXKP5oWrAAtknRW2Jo7s316Ph88gqub7NVV6qXhpf92_pDobosBfeg4o2uxtwMg2PE3X_wB9zKenZOK453LpwJHW2i5IRbj3Wr4WZW9HocPPuPVQxQAAAAF3PrMGAA")   
+    SESSION = os.environ.get("SESSION", "BQBUyUojyblmG27wrfszzn92imiyQUrZ2pSzSgfm-r3_Vo14zycW3tozW3LbWcP3uEHzpj2kZQQ7UZdD6zBz8JDgbGNl7-6Rr4wCg8v6FxLhvyWORNr1ECwMRAyIabXvp3-czmsU-dBgYKuNaduCM34ZRj53VMlV_IwvVVFAQBFQAELlvxpBJBgyqD-uSk10b2HRE-nBgq738Ic6VCNZT8JuNajcQBlRd57ugmgIP_ZLu-csDwIm-SwqwJb1XusLeE4vscrIY1gvnOiI_q3urdis8SPM5DvPIlBLK1Va86M43dYgZwaNcQLRXlR85GNEmPUvPh0mkavf-UbckLV3mUicAAAAAXc-swYA")   
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001553031624"))
     BOT_USERNAME= os.environ.get("BOT_USERNAME", "NY_Forward_robot")
 
